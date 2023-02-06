@@ -1,9 +1,8 @@
 module.exports.home = function (req,res) {
-    return res.render('profile page',{
-        title:"profile page"
+    return res.render('home',{
+        title:"home"
     }
-
-    )
+ )
 }
 
 
